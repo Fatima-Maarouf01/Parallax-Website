@@ -98,3 +98,21 @@ button{
     margin-top: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.containerSecond{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    
+    
+}
+.year1949{
+    margin-top: 270px;
+    font-size: 70px;
+    font-weight: bold;
+     color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 20px #fbfbfb,-2px 1px 30px #fffdfe;
+}
