@@ -127,3 +127,12 @@ button{
     
     
 }
+.containerFourth{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+    
+}
