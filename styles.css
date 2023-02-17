@@ -18,7 +18,7 @@ header h2{
     position:left;
     font-weight: 500;
     font-size: 30px;
-    font-style: Segoe UI;
+    font-style: "Segoe UI";
     letter-spacing:3px;
 }
 header ul{
@@ -84,7 +84,7 @@ button{
 }
 .texts{
     color: white;
-    font-style: Segoe UI;
+    font-style: 'Segoe UI';
     margin-top: 26px;
     font-size: 17px;
 }
@@ -105,6 +105,7 @@ button{
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 40px;
     
     
@@ -123,6 +124,7 @@ button{
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     gap: 40px;
     
     
@@ -132,6 +134,7 @@ button{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
     
     
@@ -141,6 +144,17 @@ button{
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+.containerSix{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
     
     
