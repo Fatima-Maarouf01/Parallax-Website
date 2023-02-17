@@ -66,10 +66,12 @@ button{
     margin: 0 auto;
     display: flex;
     gap: 40px;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.Introduction{
+.divTexts{
     
     margin-top: 200px;
     background-color: #393053;
@@ -78,9 +80,9 @@ button{
     text-align: center;
     width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 200px;
+    
 }
-.IntroductionText{
+.texts{
     color: white;
     font-style: Segoe UI;
     margin-top: 26px;
@@ -107,7 +109,7 @@ button{
     
     
 }
-.year1949{
+.years{
     margin-top: 270px;
     font-size: 70px;
     font-weight: bold;
@@ -115,4 +117,13 @@ button{
     text-align: center;
     letter-spacing: 5px;
     text-shadow: 3px 3px 15px #c5c5c5,-2px 1px 30px #fffdfe;
+}
+.containerThird{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    
+    
 }
