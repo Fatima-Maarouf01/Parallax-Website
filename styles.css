@@ -1,3 +1,6 @@
+body{
+    background-color: #18122B;
+}
 header{
     top: 0;
     left: 0;
@@ -47,4 +50,51 @@ button{
     font-weight:bold;
     font-size:15px;
     margin-right: 60px;
+}
+.title {
+    margin: 300px 20px 300px 20px ;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 0px 7px rgba(198, 208, 240, 0.8), -3px 0px 7px rgba(41, 54, 60, 0.596), 0px 4px 7px rgba(81,67,21,0.8);
+  }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.Introduction{
+    
+    margin-top: 200px;
+    background-color: #393053;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 200px;
+}
+.IntroductionText{
+    color: white;
+    font-style: Segoe UI;
+    margin-top: 26px;
+    font-size: 17px;
+}
+.AlanTuring{
+
+    max-width: 150px;
+    border: 2px solid #635985;
+    border-radius: 50%;
+    display: block;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
