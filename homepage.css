@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    position: sticky;
+    height: 6vh;
+}
+
+.wrapper{
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.intro-paragraph{
+    background: #2b1055;
+    width: auto;
+    height: auto;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+.divider{
+    align-self: stretch;
+    height: 100px;
+    background: dodgerblue;
+}
+
+.intro-divider{
+    display: flex;
+    height: auto;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+
+.flashlight-img{
+    width: 70px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.intro-paragraph:hover{
+    width: 100px;
+    height: 100px;
+}
