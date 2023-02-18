@@ -184,7 +184,7 @@ button{
     padding-top:90px;
 }
 
-p{
+.futureText{
     padding-top: 10px;
     color:white;
     text-align:left;
@@ -213,8 +213,9 @@ p{
     padding:20px;
     width:100%;
 }
-img{
+.imageFuture{
     width:150px;
     height:150px;
    
 }
+
