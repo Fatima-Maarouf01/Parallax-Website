@@ -218,18 +218,19 @@ button{
     height:150px;
    
 }
-.AINow{
+.AINowImage{
     
     border: 2px solid #635985;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 80px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .AINowTitle{
     font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
     font-size: 70px;
     font-weight: bold;
     color: white;
@@ -240,13 +241,15 @@ button{
 .divTextsRound{
     
     
-    margin: 0 auto;;
+    margin: 0 auto;
+    margin-top: 50px;
     background-color: #393053;
     padding: 50px;
     border-radius: 50%;
     text-align: center;
     width: 600px;
     height: 600px;
+    border: 4px solid rgba(198, 208, 240, 0.8);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
 }
@@ -257,19 +260,19 @@ button{
     font-size: 20px;
 }
 .titleTextsRoundFirst{
-    color: white;
+    color: rgba(198, 208, 240, 0.8);
     font-size: 30px;
     font-weight: bold;
     margin-top: 80px;
 }
 .titleTextsRoundSecond{
-    color: white;
+    color: rgba(198, 208, 240, 0.8);
     font-size: 30px;
     font-weight: bold;
     margin-top: 50px;
 }
 .titleTextsRoundThird{
-    color: white;
+    color: rgba(198, 208, 240, 0.8);
     font-size: 30px;
     font-weight: bold;
     margin-top: 50px;
