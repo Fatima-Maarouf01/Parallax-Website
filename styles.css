@@ -256,11 +256,17 @@ button{
     margin-top: 60px;
     font-size: 20px;
 }
-.titleTextsRound{
+.titleTextsRoundFirst{
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-top: 80px;
+}
+.titleTextsRoundSecond{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
 }
 
 
