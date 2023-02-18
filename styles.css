@@ -13,6 +13,12 @@ header{
     align-items: center;
     background-color: #635985;
 }
+.letter-color{
+    color:pink;
+    font-style:bold;
+    font-size:40px;
+
+}
 header h2{
     color:white;
     position:left;
@@ -165,4 +171,50 @@ button{
 .clickme{
     color: white;
     font-family: 'Segoe UI';
+}
+.future{
+    padding-top:150px;
+    color:white;
+    font: size 100px;
+    text-align:center;
+}
+.start{
+    color:white;
+    align-content: center; 
+    padding-top:90px;
+}
+
+p{
+    padding-top: 10px;
+    color:white;
+    text-align:left;
+    padding:2px 2px;
+    text-align:justify;
+    line-height: 20px;
+   
+    
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content:center;
+    border-spacing: 50px;
+    margin:20px;
+    padding-top:10px;
+}
+.item{
+    border:2px solid;
+    border-radius:15px;
+    background-color:#635985;
+    color:white;
+    align-items:center;
+    margin:3px 20px;
+    padding:20px;
+    width:100%;
+}
+img{
+    width:150px;
+    height:150px;
+   
 }
