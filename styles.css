@@ -1,5 +1,7 @@
 body{
     background-color: #18122B;
+    margin: 0;
+    font-family: "Segoe UI" , sans-serif;
 }
 header{
     top: 0;
@@ -12,6 +14,12 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #635985;
+}
+.letter-color{
+    color:pink;
+    font-style:bold;
+    font-size:40px;
+
 }
 header h2{
     color:white;
@@ -52,7 +60,7 @@ button{
     margin-right: 60px;
 }
 .title {
-    margin: 300px 20px 300px 20px ;
+    margin: 200px 20px 300px 20px ;
     font-family: 'Ubuntu', sans-serif;
     font-size: 70px;
     font-weight: bold;
@@ -61,7 +69,7 @@ button{
     letter-spacing: 5px;
     text-shadow: 3px 0px 7px rgba(198, 208, 240, 0.8), -3px 0px 7px rgba(41, 54, 60, 0.596), 0px 4px 7px rgba(81,67,21,0.8);
   }
-.container{
+.containerFirst{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -166,3 +174,172 @@ button{
     color: white;
     font-family: 'Segoe UI';
 }
+.future{
+    padding-top:150px;
+    color:white;
+    font: size 100px;
+    text-align:center;
+}
+.start{
+    color:white;
+    align-content: center; 
+    padding-top:90px;
+}
+
+.futureText{
+    padding-top: 10px;
+    color:white;
+    text-align:left;
+    padding:2px 2px;
+    text-align:justify;
+    line-height: 20px;
+   
+    
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content:center;
+    border-spacing: 50px;
+    margin:20px;
+    padding-top:10px;
+}
+.item{
+    border:2px solid;
+    border-radius:15px;
+    background-color:#635985;
+    color:white;
+    align-items:center;
+    margin:3px 20px;
+    padding:20px;
+    width:100%;
+}
+.imageFuture{
+    width:150px;
+    height:150px;
+   
+}
+.AINowImage{
+    
+    border: 2px solid #635985;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.AINowTitle{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 0px 7px rgba(198, 208, 240, 0.8), -3px 0px 7px rgba(41, 54, 60, 0.596), 0px 4px 7px rgba(81,67,21,0.8);
+}
+.divTextsRound{
+    
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #393053;
+    padding: 50px;
+    border-radius: 50%;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border: 4px solid rgba(198, 208, 240, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+}
+.textsRound{
+    color: white;
+    font-family: 'Segoe UI';
+    margin-top: 60px;
+    font-size: 20px;
+}
+.titleTextsRoundFirst{
+    color: rgba(198, 208, 240, 0.8);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.titleTextsRoundSecond{
+    color: rgba(198, 208, 240, 0.8);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.titleTextsRoundThird{
+    color: rgba(198, 208, 240, 0.8);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.navbar{
+    position: sticky;
+    height: 6vh;
+}
+
+.wrapper{
+    background: rgb(24,18,43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content-info{
+    color: white;
+    display: flex;
+}
+
+.content-paragraph{
+    background: rgb(57,48,83);
+    padding: 10px;
+    width: 50%;
+}
+
+.content-paragraph > h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.content-paragraph > p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.intro-paragraph-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.intro-paragraph-img > img{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+}
+
+.content-reversed{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ai-definition{
+    margin-left: 3%;
+    padding-right: 1%;
+}
+
+
+
+

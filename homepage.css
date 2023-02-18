@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: "Segoe UI" , sans-serif;
 }
 
 .navbar{
@@ -8,22 +9,59 @@ body{
 }
 
 .wrapper{
-    background: pink;
+    background: rgb(24,18,43);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     width: 100vw;
     height: 100vh;
 }
 
-.intro-paragraph{
-    background: #2b1055;
-    width: auto;
-    height: auto;
-    transition-duration: 1s;
-    transition-delay: 0.2s;
+.content-info{
+    color: white;
+    display: flex;
 }
+
+.content-paragraph{
+    background: rgb(57,48,83);
+    padding: 10px;
+    width: 50%;
+}
+
+.content-paragraph > h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.content-paragraph > p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.intro-paragraph-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.intro-paragraph-img > img{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+}
+
+.content-reversed{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ai-definition{
+    margin-left: 3%;
+    padding-right: 1%;
+}
+
 
 .divider{
     align-self: stretch;
@@ -31,22 +69,4 @@ body{
     background: dodgerblue;
 }
 
-.intro-divider{
-    display: flex;
-    height: auto;
-    align-self: stretch;
-    flex-direction: column;
-    align-items: center;
-    margin-top: auto;
-}
 
-.flashlight-img{
-    width: 70px;
-    height: 120px;
-    object-fit: contain;
-}
-
-.intro-paragraph:hover{
-    width: 100px;
-    height: 100px;
-}
