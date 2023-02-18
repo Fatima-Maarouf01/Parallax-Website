@@ -278,5 +278,39 @@ button{
     margin-top: 50px;
     margin-bottom: 100px;
 }
+.divTextsChatgpt{
+    
+    margin-top: 200px;
+    background-color: #393053;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    width: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.chatgptImage{
+
+    max-width: 300px;
+    height: 300px;
+    border: 2px solid #635985;
+    border-radius: 50%;
+    display: block;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.containerFirstChatgpt{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:-180px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
