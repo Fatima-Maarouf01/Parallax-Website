@@ -10,12 +10,18 @@ nav{
     align-items: center;
     background-color: #635985;
 }
+.letter-color{
+    color:pink;
+    font-style:bold;
+    font-size:40px;
+
+}
 header h2{
     color:white;
     position:left;
     font-weight: 500;
     font-size: 30px;
-    font-style: Segoe UI;
+    font-family: 'Segoe UI';
     letter-spacing:3px;
 }
 header ul{
