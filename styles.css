@@ -87,11 +87,10 @@ p {
 .container {
     display: flex;
     text-align: center;
-    align-content: center;
     justify-content: center;
     border-spacing: 50px;
-    margin: 20px;
-    padding-top: 10px;
+    margin-top:200px;
+    
 }
 
 .item {
