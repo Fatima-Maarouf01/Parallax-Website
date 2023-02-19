@@ -263,7 +263,27 @@ img {
 
 
 }
-
+.future_1 p{
+    font-size:25px;
+    margin-top: 0;
+    color:white;
+    align-items:center;
+    margin:3px 3px;
+    padding:2px;
+    width:100%;
+}
+.future_1{
+    color:white;
+    text-align: center;
+    margin:40px;
+    padding: 20px;
+    border:2px solid white;
+    border-radius: 15px;
+    background-color:#635985;
+    margin-top:100px;
+    font-style: Segoe UI;
+    
+}
 .container {
     display: flex;
     text-align: center;
@@ -455,7 +475,7 @@ header::before {
 }
 
 .container {
-    margin-top: 200px;
+    margin-top: 500px;
     z-index: 2;
     position: absolute;
     top: 100vh;
