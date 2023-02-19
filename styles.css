@@ -455,6 +455,7 @@ header::before {
 }
 
 .container {
+    margin-top: 200px;
     z-index: 2;
     position: absolute;
     top: 100vh;
